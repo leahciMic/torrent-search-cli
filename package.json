@@ -12,7 +12,7 @@
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "choices": "0.1.0",
+    "choices": "^0.1.0",
     "open": "0.0.5",
     "search-kat.ph": "^1.0.1"
   },
