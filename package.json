@@ -1,6 +1,6 @@
 {
   "name": "torrent-search-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Search torrents on the command line and open them in your default torrent application",
   "main": "torrent.js",
   "bin": {
