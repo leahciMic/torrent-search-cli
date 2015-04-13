@@ -25,6 +25,9 @@ if (!query) {
 
 search(query).then(function(results) {
 		choices('Select a torrent', results.slice(0, 9).map(function(r) { return r.name + ' [' + r.size + ' / ' + r.files + ' files]'; }), function(idx) {
+			if (idx === null) {
+				return;
+			}
 			open(results[idx].magnet);
 		});
 });
